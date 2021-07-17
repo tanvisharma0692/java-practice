@@ -3,7 +3,8 @@ package main.java.conditionals;
 public class Conditional {
 
     public static void main(String[] args) {
-        int grade = 100;
+        //BODMAS Bracket Of Divide multiply add subtract
+        int grade = 99;
         //Write a program if grades are greater than 0 but less than 25 print grade 'D'
         // If grades are greater than 25 but less than 75 print 'B'
         //If grades are greater than 75 but less than or equal to 100 then print 'A'
@@ -12,20 +13,14 @@ public class Conditional {
             System.out.println("Grade D");
         } else if (grade > 25 && grade < 75) {
             System.out.println("Grade B");
-        } else if (grade > 75 && grade <= 100) {
+        } else if (grade > 75 && (grade < 100 || grade == 100)) {
             System.out.println("Grade A");
         }
         //H.W
         //Write the case for Grade A, also try to display a message if grade is out of range means
         // not in the range of 0 to 100 example user enters grade 1000
-      int grade1 = 1000;
-       if(grade1 > 75 && grade1 <= 100) {
-           System.out.println("Grade A");
-       } else if (grade1 > 75 && grade1 <= 80){
-           System.out.println("Grade A");
-       }
-        int grade3 = 1000;
-        if(grade3 > 75 && grade3 <= 2000) {
+      int grade1 = 10;
+        if(grade1 > 75 && grade1 <= 100) { // 75 not included to 100
             System.out.println("Grade A");
         }
  //Added comment
