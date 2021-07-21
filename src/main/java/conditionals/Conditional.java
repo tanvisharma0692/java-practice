@@ -31,27 +31,27 @@ public class Conditional {
     //Methods are basically functions
     //Public access modifier
     public void switchCase() {
-        String message = new String();
+//        String message = new String();
 
         DAYS_OF_WEEK days = DAYS_OF_WEEK.FRI;
-//        switch (days){
-//            case SUN:{
-//                System.out.println(days + "case executed4");
-//                break;
-//            }
-//            case MON:{
-//                System.out.println(days + "case executed2");
-//                break;
-//            }
-//            case TUE:{
-//                System.out.println(days + "case executed1");
-//                break;
-//            }
-//            default:{
-//                System.out.println(days + "default case executed");
-//                break;
-//            }
-//        }
+        switch (days){
+            case SUN:{
+                System.out.println(days + "case executed4");
+                break;
+            }
+            case MON:{
+                System.out.println(days + "case executed2");
+                break;
+            }
+            case TUE:{
+                System.out.println(days + "case executed1");
+                break;
+            }
+            default:{
+                System.out.println(days + "default case executed");
+                break;
+            }
+        }
     }
 
     //Enum means enumeration
